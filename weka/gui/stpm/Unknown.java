@@ -73,9 +73,9 @@ public class Unknown {
         ret = ret.substring(0,ret.length()-2) + ")',"+SRID+")";
         
         if(this.isbuffer){
-        	ret = "ST_Buffer("+ret+","+buffer+")";
+        	ret = "ST_Multi(ST_Buffer("+ret+","+buffer+"))";
         }
-        
+        //ret += "ST_Multi("+ret+")";
         return ret;
     }
     
