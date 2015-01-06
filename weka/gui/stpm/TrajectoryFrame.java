@@ -44,7 +44,7 @@ public class TrajectoryFrame extends JDialog{
 	private Config config = new Config();
 	
 	// Method panel
-	/**Selects the apropriate method to be aplicated */
+	/**Selects the appropriate method to be applied */
     private javax.swing.JComboBox jComboBoxMethod;
     
     /**Select the parameters of each method */

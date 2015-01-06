@@ -558,8 +558,8 @@ public class TrajectoryMethods {
             StringBuffer sql = new StringBuffer("SELECT * FROM " +
                     "(SELECT "+config.tid+" as tid, "+config.time+" as time,the_geom, gid as serial_time FROM "+config.table+" WHERE "+config.tid+"="+traj.tid+" ORDER BY "+config.time+") T JOIN (" +
                     "SELECT '"+rf.name+"' as table_name,A.gid,the_geom as rf_the_geom,bufenv,buf FROM "+rf.name+" A JOIN "+rf.name+"_envelope B ON (A.gid = B.gid) ) R" +
-                    " ON (Intersects(bufenv,T.the_geom) " +
-                    "AND Intersects(buf,T.the_geom)) " +
+                    " ON (ST_Intersects(bufenv,T.the_geom) " +
+                    "AND ST_Intersects(buf,T.the_geom)) " +
                     "ORDER BY time");            
 
             System.out.println(sql.toString());
@@ -673,9 +673,9 @@ public class TrajectoryMethods {
                     "(SELECT "+config.tid+" as tid, "+config.time+" as time, the_geom, gid as serial_time FROM "+config.table+" WHERE "+config.tid+"="+traj.tid+traj.clusterPoints()+") T JOIN (" +
                     //"SELECT '"+rf.name+"' as table_name,A.gid,A.lid,the_geom as rf_the_geom,bufenv,buf FROM "+rf.name+" A JOIN "+rf+"_envelope B ON (A.gid = B.gid) ) R" +
                     "SELECT '"+rf.name+"' as table_name,A.gid,the_geom as rf_the_geom,bufenv,buf FROM "+rf.name+" A JOIN "+rf+"_envelope B ON (A.gid = B.gid) ) R" +
-                    " ON (Intersects(bufenv,T.the_geom) " +
+                    " ON (ST_Intersects(bufenv,T.the_geom) " +
                     //"AND T.the_geom && rf_the_geom " +
-                    "AND Intersects(buf,T.the_geom)) " +
+                    "AND ST_Intersects(buf,T.the_geom)) " +
                     " ORDER BY time");
 
             System.out.println(sql);
@@ -1004,7 +1004,7 @@ public class TrajectoryMethods {
 		        }else if (obj.getClass() == Unknown.class) {
 		            Unknown unk = (Unknown) obj;
 		            int tid = unk.pontos.firstElement().tid;
-		            	String query = "select stop_name from "+TrajectoryFrame.getCurrentNameTableStop()+" where rf='unknown' AND intersects(the_geom,"+unk.toSQL(buffer)+");";
+		            	String query = "select stop_name from "+TrajectoryFrame.getCurrentNameTableStop()+" where rf='unknown' AND ST_Intersects(the_geom,"+unk.toSQL(buffer)+");";
 		            	ResultSet rs = s1.executeQuery(query);
 		            	if(rs.next()){
 		            		//joining same unknowns...
@@ -1046,7 +1046,7 @@ public class TrajectoryMethods {
 
 		for(ClusterPoints c:array){
 	    	String sql= "insert into clusters (tid,cluster_id,the_geom) values" +
-	    			"("+traj.tid+","+c.clusterId+",Buffer(LineFromText('LINESTRING(";
+	    			"("+traj.tid+","+c.clusterId+",ST_Buffer(ST_LineFromText('LINESTRING(";
 	    	for(int i=0;i<c.points.size();i++){
 	    		org.postgis.Point p = c.points.elementAt(i).point;
 	    		sql+= p.getX() + " " + p.getY() + ",";
