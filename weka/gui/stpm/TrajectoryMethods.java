@@ -18,7 +18,7 @@ public class TrajectoryMethods {
     protected static int clusterID = -1;    
     protected static int unkID=-1;
     
-    // dont try to undestand why is it here... 
+    // Don't try to understand why is it here... 
     public void speedClusteringNotStatic(Trajectory t, double avgFactor, long minTimeMili, double SLFactor,Config conf) {
     	speedClustering(t,avgFactor,minTimeMili,SLFactor,conf);
     }
@@ -1023,6 +1023,7 @@ public class TrajectoryMethods {
 		        
 		        if(!flag){//teste pra saber se executa ou nao a query
 		        	System.out.print("Stop "+i+" saving... ");
+		        	System.out.println(sql);
 		        	s.execute(sql);
 		        	System.out.println("Saved");
 		        }

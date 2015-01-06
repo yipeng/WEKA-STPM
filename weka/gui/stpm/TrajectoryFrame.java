@@ -405,7 +405,7 @@ public class TrajectoryFrame extends JDialog{
                 "    CONSTRAINT "+TrajectoryFrame.getCurrentNameTableStop()+"_gidkey PRIMARY KEY (gid)"+
                 ") WITHOUT OIDS;"    
             );            
-              s.execute("SELECT AddGeometryColumn('"+TrajectoryFrame.getCurrentNameTableStop()+"', 'the_geom',"+table_srid+", 'POLYGON', 2)");
+              s.execute("SELECT AddGeometryColumn('"+TrajectoryFrame.getCurrentNameTableStop()+"', 'the_geom',"+table_srid+", 'MULTIPOLYGON', 2)");
             try {
                 s.execute("ALTER TABLE "+TrajectoryFrame.getCurrentNameTableStop()+" DROP CONSTRAINT enforce_geotype_the_geom");
             } catch (SQLException ex) {
