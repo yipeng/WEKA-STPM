@@ -64,6 +64,7 @@ public class Stop {
         if(this.isbuffer){
         	ret = "ST_Buffer("+ret+","+buffer+")";
         }
+        ret += "ST_Multi("+ret+")";
         return ret;
     }
     
