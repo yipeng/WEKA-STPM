@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer
+END
+ArffViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffViewer.java
+END
+ArffViewerMainPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffViewerMainPanel.java
+END
+ArffTable.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffTable.java
+END
+ArffTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffTableModel.java
+END
+ArffSortedTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffSortedTableModel.java
+END
+ArffTableCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffTableCellRenderer.java
+END
+ArffPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/arffviewer/ArffPanel.java
+END

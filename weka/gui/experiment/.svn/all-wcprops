@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment
+END
+ExperimenterDefaults.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/ExperimenterDefaults.java
+END
+DistributeExperimentPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/DistributeExperimentPanel.java
+END
+DatasetListPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/DatasetListPanel.java
+END
+AlgorithmListPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/AlgorithmListPanel.java
+END
+Experimenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/Experimenter.java
+END
+SetupPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/SetupPanel.java
+END
+ResultsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/ResultsPanel.java
+END
+RunPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/RunPanel.java
+END
+SetupModePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/SetupModePanel.java
+END
+GeneratorPropertyIteratorPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/GeneratorPropertyIteratorPanel.java
+END
+OutputFormatDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/OutputFormatDialog.java
+END
+HostListPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/HostListPanel.java
+END
+Experimenter.props
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/Experimenter.props
+END
+SimpleSetupPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/SimpleSetupPanel.java
+END
+RunNumberPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/experiment/RunNumberPanel.java
+END

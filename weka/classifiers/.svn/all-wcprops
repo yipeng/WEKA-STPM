@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers
+END
+EnsembleLibraryModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/EnsembleLibraryModel.java
+END
+IterativeClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/IterativeClassifier.java
+END
+MultipleClassifiersCombiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/MultipleClassifiersCombiner.java
+END
+RandomizableIteratedSingleClassifierEnhancer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/RandomizableIteratedSingleClassifierEnhancer.java
+END
+BVDecompose.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/BVDecompose.java
+END
+Evaluation.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/Evaluation.java
+END
+BVDecomposeSegCVSub.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/BVDecomposeSegCVSub.java
+END
+UpdateableClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/UpdateableClassifier.java
+END
+IteratedSingleClassifierEnhancer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/IteratedSingleClassifierEnhancer.java
+END
+IntervalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/IntervalEstimator.java
+END
+RandomizableClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/RandomizableClassifier.java
+END
+EnsembleLibrary.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/EnsembleLibrary.java
+END
+Sourcable.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/Sourcable.java
+END
+JythonClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/JythonClassifier.java
+END
+CheckClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/CheckClassifier.java
+END
+RandomizableSingleClassifierEnhancer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/RandomizableSingleClassifierEnhancer.java
+END
+Classifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/Classifier.java
+END
+EnsembleLibraryModelComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/EnsembleLibraryModelComparator.java
+END
+RandomizableMultipleClassifiersCombiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/RandomizableMultipleClassifiersCombiner.java
+END
+SingleClassifierEnhancer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/SingleClassifierEnhancer.java
+END
+CostMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/CostMatrix.java
+END
+CheckSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/CheckSource.java
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global
+END
+RepeatedHillClimber.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/RepeatedHillClimber.java
+END
+TabuSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/TabuSearch.java
+END
+TAN.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/TAN.java
+END
+GeneticSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/GeneticSearch.java
+END
+SimulatedAnnealing.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/SimulatedAnnealing.java
+END
+HillClimber.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/HillClimber.java
+END
+GlobalScoreSearchAlgorithm.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/GlobalScoreSearchAlgorithm.java
+END
+K2.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/search/global/K2.java
+END

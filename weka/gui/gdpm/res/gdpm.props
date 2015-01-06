@@ -1,0 +1,53 @@
+# Este arquivo cont�m os comandos SQL utilizados pelo GDPM
+# Devido a diferen�as na sintaxe, os comandos foram organizados por tipo
+# e por SGBD.
+# Os seguintes meta-campos podem ser utilizados
+#       <SELECTED_SCHEMA>           = Retorna o schema selecionado pelo usu�rio
+#	<TARGET_FEATURE>            = Retorna a Target Feature selecionada pelo usu�rio
+#	<TARGET_FEATURE_TEMP>       = Retorna a Target Feature selecionada pelo usu�rio com o sufixo '_TEMP'
+#       <TARGET_FEATURE_COLUMN>     = Retorna a coluna geométrica da tabela target feature selecionada
+#	<RELEVANT_FEATURE>          = Retorna a Relevant Feature selecionada pelo usu�rio
+#       <RELEVANT_FEATURE_GID>      = Retorna a Relavent Feature selecionada + GID - Usado na construção das tabelas temporárias
+#       <RELEVANT_FEATURE_COLUMN>   = Retorna a coluna geométrica da tabela relevant feature selecionada
+#       <DISTANCE_VERY_CLOSE>       = Valor informado como parâmetro de distance VERY CLOSE
+#       <DISTANCE_CLOSE>            = Valor informado como parâmetro de distance CLOSE
+#
+# Comandos SQL para PostGres
+#
+postgresql_load_schemas=select distinct f_table_schema from geometry_columns
+postgresql_load_tables=select f_table_name as tableName, count(*) as numberTables from geometry_columns  where f_table_schema='<SELECTED_SCHEMA>' group by f_table_name order by f_table_name
+
+postgresql_get_geometry_column=select f_table_schema as schemaName, f_geometry_column from geometry_columns where f_table_name='<TARGET_FEATURE>' and f_table_schema='<SELECTED_SCHEMA>'
+                 
+postgresql_get_tableset=select f_table_name as tableName,f_geometry_column from geometry_columns where f_table_schema='<SELECTED_SCHEMA>' and f_table_name='<RELEVANT_FEATURE>'
+
+postgresql_insert_topology_feature=insert into <TARGET_FEATURE_TEMP> select q1.gid,<RELEVANT_FEATURE_GID>,switchIntersection(q1.the_geom,q2.the_geom) from (select gid,<TARGET_FEATURE_COLUMN> as the_geom from <TARGET_FEATURE>) as q1, (select gid,<RELEVANT_FEATURE_COLUMN> as the_geom from <RELEVANT_FEATURE>) AS q2 where INTERSECTS (q1.the_geom,q2.the_geom)
+postgresql_insert_topology_type=insert into <TARGET_FEATURE_TEMP> select distinct q1.gid,'<RELEVANT_FEATURE>',switchIntersection(q1.the_geom,q2.the_geom) from (SELECT gid,<TARGET_FEATURE_COLUMN> as the_geom FROM <TARGET_FEATURE>) AS q1, (SELECT gid,<RELEVANT_FEATURE_COLUMN> as the_geom FROM <RELEVANT_FEATURE>) AS q2 WHERE INTERSECTS (q1.the_geom,q2.the_geom)
+
+postgresql_insert_distance_feature=insert into <TARGET_FEATURE_TEMP> select a.gid,<RELEVANT_FEATURE_GID>,fHowDistance(a.targetFGeometry,b.geometryAttribute,'<DISTANCE_VERY_CLOSE>','<DISTANCE_CLOSE>') from (select gid,<TARGET_FEATURE_COLUMN> as targetFGeometry FROM <TARGET_FEATURE>) as a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryAttribute FROM <RELEVANT_FEATURE>) as b where distance(a.targetFGeometry,b.geometryAttribute) <= <DISTANCE_CLOSE>
+postgresql_insert_distance_type=insert into <TARGET_FEATURE_TEMP> select distinct a.gid,'<RELEVANT_FEATURE>',fHowDistance(a.targetFGeometry,b.geometryAttribute,'<DISTANCE_VERY_CLOSE>','<DISTANCE_CLOSE>') from (select gid,<TARGET_FEATURE_COLUMN> as targetFGeometry FROM <TARGET_FEATURE>) as a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryAttribute from <RELEVANT_FEATURE>) as b where distance (a.targetFGeometry,b.geometryAttribute) <=<DISTANCE_CLOSE>
+
+postgresql_insert_intersects_feature=insert into <TARGET_FEATURE_TEMP> select a.gid, <RELEVANT_FEATURE_GID>, 'INTERSECTS' from (select gid,<TARGET_FEATURE_COLUMN> as geoColumn from <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryColumn from <RELEVANT_FEATURE>) b where INTERSECTS (a.geoColumn,b.geometryColumn)
+postgresql_insert_intersects_type=insert into <TARGET_FEATURE_TEMP> select distinct a.gid,'<RELEVANT_FEATURE>','INTERSECTS' FROM (select gid,<TARGET_FEATURE_COLUMN> as geoColumn from <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryColumn from <RELEVANT_FEATURE>) b where INTERSECTS (a.geoColumn,b.geometryColumn)
+                                        
+#
+#
+# Comandos SQL para Oracle
+#
+oracle_load_schemas= # N�o utilizado no oracle
+oracle_load_tables=select table_name as tableName, count(*) as numberTables from user_sdo_geom_metadata group by table_name order by table_name
+
+oracle_get_geometry_column=select '<SELECTED_SCHEMA>', column_name from user_sdo_geom_metadata where table_name='<TARGET_FEATURE>' 
+
+oracle_get_tableset=select table_name as tableName, column_name from user_sdo_geom_metadata where table_name='<RELEVANT_FEATURE>'
+
+oracle_insert_topology_feature=insert into <TARGET_FEATURE_TEMP> select q1.gid,<RELEVANT_FEATURE_GID>,sdo_relate(q1.the_geom,q2.the_geom,'mask=determine') FROM (SELECT gid,<TARGET_FEATURE_COLUMN> as the_geom FROM <TARGET_FEATURE>)  q1, (SELECT gid,<RELEVANT_FEATURE_COLUMN> as the_geom FROM <RELEVANT_FEATURE>)  q2 WHERE sdo_relate(q1.the_geom, q2.the_geom, 'mask=anyinteract') = 'TRUE'
+oracle_insert_topology_type=insert into <TARGET_FEATURE_TEMP> select distinct q1.gid,'<RELEVANT_FEATURE>',sdo_relate(q1.the_geom,q2.the_geom,'mask=determine') FROM (SELECT gid,<TARGET_FEATURE_COLUMN> as the_geom FROM <TARGET_FEATURE>)  q1, (SELECT gid,<RELEVANT_FEATURE_COLUMN> as the_geom FROM <RELEVANT_FEATURE>) q2 WHERE sdo_relate(q1.the_geom, q2.the_geom, 'mask=anyinteract') = 'TRUE'
+
+oracle_insert_distance_feature=insert into <TARGET_FEATURE_TEMP> select a.gid,<RELEVANT_FEATURE_GID>,'VERY_CLOSE' as fhowdistance from (select gid,<TARGET_FEATURE_COLUMN> as targetFGeometry FROM <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryAttribute from <RELEVANT_FEATURE>) b where SDO_GEOM.SDO_DISTANCE(a.targetFGeometry,b.geometryAttribute,0.005)<=<DISTANCE_VERY_CLOSE> union select a.gid,<RELEVANT_FEATURE_GID>,'VERY_CLOSE' as fhowdistance from (select gid,<TARGET_FEATURE_COLUMN> as targetFGeometry from <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryAttribute from <RELEVANT_FEATURE>) b where (SDO_GEOM.SDO_DISTANCE( a.targetFGeometry,b.geometryAttribute, 0.005) ><DISTANCE_VERY_CLOSE> and SDO_GEOM.SDO_DISTANCE( a.targetFGeometry,b.geometryAttribute,0.005) <=<DISTANCE_CLOSE>)
+oracle_insert_distance_type=insert into <TARGET_FEATURE_TEMP> select distinct a.gid,'<RELEVANT_FEATURE>','VERY_CLOSE' as fhowdistance from (select gid,<TARGET_FEATURE_COLUMN> as targetFGeometry FROM <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryAttribute from <RELEVANT_FEATURE>) b where SDO_GEOM.SDO_DISTANCE(a.targetFGeometry,b.geometryAttribute,0.005)<=<DISTANCE_VERY_CLOSE> union select distinct a.gid,'<TARGET_FEATURE>','VERY_CLOSE' as fhowdistance from (select gid,<TARGET_FEATURE_COLUMN> as targetFGeometry from <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryAttribute from <RELEVANT_FEATURE>) b where (SDO_GEOM.SDO_DISTANCE( a.targetFGeometry,b.geometryAttribute, 0.005) ><DISTANCE_VERY_CLOSE> and SDO_GEOM.SDO_DISTANCE( a.targetFGeometry,b.geometryAttribute,0.005) <=<DISTANCE_CLOSE>)
+
+oracle_insert_intersects_feature=insert into <TARGET_FEATURE_TEMP> select a.gid,<RELEVANT_FEATURE_GID>,'INTERSECTS' from (select gid,<TARGET_FEATURE_COLUMN> as geoColumn from <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryColumn from <RELEVANT_FEATURE>) b where sdo_relate(a.geoColumn,b.geometryColumn,'mask=anyinteract')='TRUE'
+oracle_insert_intersects_type=insert into <TARGET_FEATURE_TEMP> select distinct a.gid,'<RELEVANT_FEATURE>','INTERSECTS' from (select gid,<TARGET_FEATURE_COLUMN> as geoColumn from <TARGET_FEATURE>) a, (select gid,<RELEVANT_FEATURE_COLUMN> as geometryColumn from <RELEVANT_FEATURE>) b where sdo_relate(a.geoColumn,b.geometryColumn,'mask=anyinteract')='TRUE'
+	
+                                                        

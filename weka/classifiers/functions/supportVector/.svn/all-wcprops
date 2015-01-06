@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector
+END
+Puk.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/Puk.java
+END
+Kernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/Kernel.java
+END
+RegOptimizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/RegOptimizer.java
+END
+RegSMOImproved.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/RegSMOImproved.java
+END
+PolyKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/PolyKernel.java
+END
+StringKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/StringKernel.java
+END
+CachedKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/CachedKernel.java
+END
+KernelEvaluation.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/KernelEvaluation.java
+END
+NormalizedPolyKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/NormalizedPolyKernel.java
+END
+RBFKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/RBFKernel.java
+END
+SMOset.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/SMOset.java
+END
+RegSMO.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/RegSMO.java
+END
+CheckKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/CheckKernel.java
+END
+PrecomputedKernelMatrixKernel.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/functions/supportVector/PrecomputedKernelMatrixKernel.java
+END

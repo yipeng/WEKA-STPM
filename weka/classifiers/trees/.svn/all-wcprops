@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees
+END
+RandomTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/RandomTree.java
+END
+M5P.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/M5P.java
+END
+SimpleCart.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/SimpleCart.java
+END
+RandomForest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/RandomForest.java
+END
+ADTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/ADTree.java
+END
+J48.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/J48.java
+END
+REPTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/REPTree.java
+END
+BFTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/BFTree.java
+END
+FT.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/FT.java
+END
+NBTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/NBTree.java
+END
+Id3.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/Id3.java
+END
+UserClassifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/UserClassifier.java
+END
+DecisionStump.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/DecisionStump.java
+END
+J48graft.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/J48graft.java
+END
+LMT.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/LMT.java
+END

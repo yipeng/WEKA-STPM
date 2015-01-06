@@ -1,0 +1,737 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans
+END
+TestSetListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TestSetListener.java
+END
+GraphEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/GraphEvent.java
+END
+ChartEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ChartEvent.java
+END
+AbstractTrainAndTestSetProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractTrainAndTestSetProducer.java
+END
+AbstractTrainAndTestSetProducerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractTrainAndTestSetProducerBeanInfo.java
+END
+InstanceEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/InstanceEvent.java
+END
+TextViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TextViewer.java
+END
+VisualizableErrorEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/VisualizableErrorEvent.java
+END
+KnowledgeFlow.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/KnowledgeFlow.java
+END
+Clusterer.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Clusterer.java
+END
+KnowledgeFlowApp.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/KnowledgeFlowApp.java
+END
+StartUpListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/StartUpListener.java
+END
+TextViewerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TextViewerBeanInfo.java
+END
+TrainTestSplitMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainTestSplitMaker.java
+END
+ClustererBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClustererBeanInfo.java
+END
+InstanceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/InstanceListener.java
+END
+VisualizableErrorListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/VisualizableErrorListener.java
+END
+TestSetMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TestSetMaker.java
+END
+TrainTestSplitMakerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainTestSplitMakerBeanInfo.java
+END
+BatchClustererEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BatchClustererEvent.java
+END
+IncrementalClassifierListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/IncrementalClassifierListener.java
+END
+TestSetMakerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TestSetMakerBeanInfo.java
+END
+CrossValidationFoldMakerCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/CrossValidationFoldMakerCustomizer.java
+END
+AbstractDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractDataSource.java
+END
+AbstractDataSourceBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractDataSourceBeanInfo.java
+END
+AbstractTestSetProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractTestSetProducer.java
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Filter.java
+END
+ClassValuePickerCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassValuePickerCustomizer.java
+END
+AbstractTestSetProducerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractTestSetProducerBeanInfo.java
+END
+ClassAssignerCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassAssignerCustomizer.java
+END
+FilterBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/FilterBeanInfo.java
+END
+DataSetEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataSetEvent.java
+END
+DataFormatListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataFormatListener.java
+END
+ThresholdDataEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ThresholdDataEvent.java
+END
+ClassifierPerformanceEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassifierPerformanceEvaluator.java
+END
+BeanVisual.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BeanVisual.java
+END
+IncrementalClassifierEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/IncrementalClassifierEvaluator.java
+END
+ClassifierPerformanceEvaluatorBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassifierPerformanceEvaluatorBeanInfo.java
+END
+IncrementalClassifierEvaluatorBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/IncrementalClassifierEvaluatorBeanInfo.java
+END
+TrainingSetProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainingSetProducer.java
+END
+Visible.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Visible.java
+END
+ClassValuePicker.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassValuePicker.java
+END
+FlowRunner.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/FlowRunner.java
+END
+ClassValuePickerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassValuePickerBeanInfo.java
+END
+ModelPerformanceChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ModelPerformanceChart.java
+END
+README_KnowledgeFlow
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/README_KnowledgeFlow
+END
+SaverCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/SaverCustomizer.java
+END
+ModelPerformanceChartBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ModelPerformanceChartBeanInfo.java
+END
+StripChartCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/StripChartCustomizer.java
+END
+ClassifierCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassifierCustomizer.java
+END
+Beans.props
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Beans.props
+END
+SerializedModelSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/SerializedModelSaver.java
+END
+PredictionAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/PredictionAppender.java
+END
+SerializedModelSaverBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/SerializedModelSaverBeanInfo.java
+END
+Saver.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Saver.java
+END
+PredictionAppenderBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/PredictionAppenderBeanInfo.java
+END
+AttributeSummarizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AttributeSummarizer.java
+END
+AbstractDataSink.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractDataSink.java
+END
+SaverBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/SaverBeanInfo.java
+END
+Classifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Classifier.java
+END
+AbstractDataSinkBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractDataSinkBeanInfo.java
+END
+AttributeSummarizerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AttributeSummarizerBeanInfo.java
+END
+ClassifierBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassifierBeanInfo.java
+END
+AbstractEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractEvaluator.java
+END
+TextEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TextEvent.java
+END
+DataVisualizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataVisualizer.java
+END
+DataVisualizerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataVisualizerBeanInfo.java
+END
+TrainingSetEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainingSetEvent.java
+END
+DataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataSource.java
+END
+BeanInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BeanInstance.java
+END
+TextListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TextListener.java
+END
+LoaderCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/LoaderCustomizer.java
+END
+BatchClassifierListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BatchClassifierListener.java
+END
+TrainTestSplitMakerCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainTestSplitMakerCustomizer.java
+END
+TestSetProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TestSetProducer.java
+END
+Loader.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Loader.java
+END
+Associator.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Associator.java
+END
+IncrementalClassifierEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/IncrementalClassifierEvent.java
+END
+LoaderBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/LoaderBeanInfo.java
+END
+UserRequestAcceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/UserRequestAcceptor.java
+END
+EventConstraints.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/EventConstraints.java
+END
+AssociatorBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AssociatorBeanInfo.java
+END
+FilterCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/FilterCustomizer.java
+END
+BeanCommon.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BeanCommon.java
+END
+IncrementalClassifierEvaluatorCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/IncrementalClassifierEvaluatorCustomizer.java
+END
+LogWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/LogWriter.java
+END
+BatchClustererListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BatchClustererListener.java
+END
+Startable.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/Startable.java
+END
+BeanConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BeanConnection.java
+END
+CustomizerClosingListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/CustomizerClosingListener.java
+END
+CrossValidationFoldMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/CrossValidationFoldMaker.java
+END
+ScatterPlotMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ScatterPlotMatrix.java
+END
+CustomizerCloseRequester.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/CustomizerCloseRequester.java
+END
+CrossValidationFoldMakerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/CrossValidationFoldMakerBeanInfo.java
+END
+ScatterPlotMatrixBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ScatterPlotMatrixBeanInfo.java
+END
+ThresholdDataListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ThresholdDataListener.java
+END
+TestSetEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TestSetEvent.java
+END
+TrainingSetListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainingSetListener.java
+END
+DataSink.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataSink.java
+END
+DataSourceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/DataSourceListener.java
+END
+ClassAssigner.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassAssigner.java
+END
+SerializedModelSaverCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/SerializedModelSaverCustomizer.java
+END
+ClassAssignerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClassAssignerBeanInfo.java
+END
+PredictionAppenderCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/PredictionAppenderCustomizer.java
+END
+GraphListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/GraphListener.java
+END
+ChartListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ChartListener.java
+END
+TrainingSetMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainingSetMaker.java
+END
+TrainingSetMakerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/TrainingSetMakerBeanInfo.java
+END
+MetaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/MetaBean.java
+END
+ClustererPerformanceEvaluator.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClustererPerformanceEvaluator.java
+END
+ClustererPerformanceEvaluatorBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClustererPerformanceEvaluatorBeanInfo.java
+END
+AbstractTrainingSetProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractTrainingSetProducer.java
+END
+AbstractTrainingSetProducerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AbstractTrainingSetProducerBeanInfo.java
+END
+ConnectionNotificationConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ConnectionNotificationConsumer.java
+END
+GraphViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/GraphViewer.java
+END
+StripChart.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/StripChart.java
+END
+GraphViewerBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/GraphViewerBeanInfo.java
+END
+StripChartBeanInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/StripChartBeanInfo.java
+END
+BatchClassifierEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/BatchClassifierEvent.java
+END
+WekaWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/WekaWrapper.java
+END
+AssociatorCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/AssociatorCustomizer.java
+END
+ClustererCustomizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/beans/ClustererCustomizer.java
+END

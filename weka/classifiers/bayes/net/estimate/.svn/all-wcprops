@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate
+END
+DiscreteEstimatorFullBayes.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate/DiscreteEstimatorFullBayes.java
+END
+SimpleEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate/SimpleEstimator.java
+END
+BayesNetEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate/BayesNetEstimator.java
+END
+MultiNomialBMAEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate/MultiNomialBMAEstimator.java
+END
+BMAEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate/BMAEstimator.java
+END
+DiscreteEstimatorBayes.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/net/estimate/DiscreteEstimatorBayes.java
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer
+END
+KDDataGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/KDDataGenerator.java
+END
+DataGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/DataGenerator.java
+END
+BoundaryVisualizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/BoundaryVisualizer.java
+END
+BoundaryPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/BoundaryPanel.java
+END
+BoundaryPanelDistributed.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/BoundaryPanelDistributed.java
+END
+RemoteBoundaryVisualizerSubTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/RemoteBoundaryVisualizerSubTask.java
+END
+RemoteResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/boundaryvisualizer/RemoteResult.java
+END

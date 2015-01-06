@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations
+END
+AssociatorEvaluation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/AssociatorEvaluation.java
+END
+Tertius.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/Tertius.java
+END
+HotSpot.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/HotSpot.java
+END
+AprioriItemSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/AprioriItemSet.java
+END
+GeneralizedSequentialPatterns.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/GeneralizedSequentialPatterns.java
+END
+CheckAssociator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/CheckAssociator.java
+END
+Apriori.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/Apriori.java
+END
+CARuleMiner.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/CARuleMiner.java
+END
+Associator.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/Associator.java
+END
+ItemSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/ItemSet.java
+END
+SingleAssociatorEnhancer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/SingleAssociatorEnhancer.java
+END
+TrajectorySequentialPattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/TrajectorySequentialPattern.java
+END
+LabeledItemSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/LabeledItemSet.java
+END
+AprioriKC.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/AprioriKC.java
+END
+RuleGeneration.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/RuleGeneration.java
+END
+PredictiveApriori.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/PredictiveApriori.java
+END
+FilteredAssociator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/FilteredAssociator.java
+END
+RuleItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/RuleItem.java
+END
+CaRuleGeneration.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/CaRuleGeneration.java
+END
+PriorEstimation.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/PriorEstimation.java
+END
+AbstractAssociator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/associations/AbstractAssociator.java
+END

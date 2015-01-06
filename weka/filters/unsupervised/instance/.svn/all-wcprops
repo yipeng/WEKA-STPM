@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance
+END
+Normalize.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/Normalize.java
+END
+SubsetByExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/SubsetByExpression.java
+END
+ReservoirSample.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/ReservoirSample.java
+END
+RemoveFolds.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/RemoveFolds.java
+END
+RemoveFrequentValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/RemoveFrequentValues.java
+END
+Randomize.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/Randomize.java
+END
+Resample.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/Resample.java
+END
+NonSparseToSparse.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/NonSparseToSparse.java
+END
+RemoveWithValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/RemoveWithValues.java
+END
+SparseToNonSparse.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/SparseToNonSparse.java
+END
+RemoveRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/RemoveRange.java
+END
+RemovePercentage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/RemovePercentage.java
+END
+RemoveMisclassified.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/RemoveMisclassified.java
+END

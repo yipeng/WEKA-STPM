@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/datagenerators/clusterers
+END
+SubspaceClusterDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/datagenerators/clusterers/SubspaceClusterDefinition.java
+END
+SubspaceCluster.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/datagenerators/clusterers/SubspaceCluster.java
+END
+BIRCHCluster.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/datagenerators/clusterers/BIRCHCluster.java
+END

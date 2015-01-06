@@ -1,0 +1,39 @@
+CREATE OR REPLACE FUNCTION switchIntersection(geometry,geometry) RETURNS text AS '
+DECLARE
+    field1 ALIAS FOR $1;
+    field2 ALIAS FOR $2;
+BEGIN
+    IF TOUCHES (field1,field2) THEN
+	RETURN ''TOUCHES'';
+    ELSIF CONTAINS (field1,field2) THEN
+	RETURN ''CONTAINS'';
+    ELSIF WITHIN (field1,field2) THEN
+	RETURN ''WITHIN'';
+    ELSIF OVERLAPS (field1,field2) THEN
+	RETURN ''OVERLAPS'';
+    ELSIF CROSSES (field1,field2) THEN
+	RETURN ''CROSSES'';
+    ELSIF DISJOINT (field1,field2) THEN
+	RETURN ''DISJOINT'';
+    ELSE
+	RETURN ''NONE'';
+    END IF;
+END;
+' LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION fHowDistance(geometry,geometry,numeric,numeric) RETURNS text AS '
+DECLARE
+    field1 ALIAS FOR $1;
+    field2 ALIAS FOR $2;
+    dist1 ALIAS FOR $3;
+    dist2 ALIAS FOR $4;
+BEGIN
+    IF DISTANCE (field1,field2) <= dist1 THEN
+	RETURN ''VERY_CLOSE'';
+    ELSIF DISTANCE (field1,field2) <= dist2 THEN
+	RETURN ''CLOSE'';
+    ELSE
+	RETURN ''?'';
+    END IF;
+END;
+' LANGUAGE plpgsql;

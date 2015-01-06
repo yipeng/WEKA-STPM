@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute
+END
+RemoveType.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/RemoveType.java
+END
+RemoveUseless.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/RemoveUseless.java
+END
+Reorder.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Reorder.java
+END
+PartitionedMultiFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/PartitionedMultiFilter.java
+END
+AddID.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/AddID.java
+END
+Discretize.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Discretize.java
+END
+PropositionalToMultiInstance.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/PropositionalToMultiInstance.java
+END
+Wavelet.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Wavelet.java
+END
+AddValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/AddValues.java
+END
+Standardize.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Standardize.java
+END
+PKIDiscretize.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/PKIDiscretize.java
+END
+NumericToBinary.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/NumericToBinary.java
+END
+RandomProjection.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/RandomProjection.java
+END
+Center.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Center.java
+END
+RELAGGS.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/RELAGGS.java
+END
+KernelFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/KernelFilter.java
+END
+AddNoise.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/AddNoise.java
+END
+NominalToString.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/NominalToString.java
+END
+PrincipalComponents.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/PrincipalComponents.java
+END
+StringToNominal.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/StringToNominal.java
+END
+TimeSeriesTranslate.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/TimeSeriesTranslate.java
+END
+SwapValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/SwapValues.java
+END
+ChangeDateFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/ChangeDateFormat.java
+END
+ClusterMembership.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/ClusterMembership.java
+END
+Remove.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Remove.java
+END
+Normalize.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Normalize.java
+END
+ClassAssigner.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/ClassAssigner.java
+END
+NominalToBinary.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/NominalToBinary.java
+END
+MultiInstanceToPropositional.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/MultiInstanceToPropositional.java
+END
+InterquartileRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/InterquartileRange.java
+END
+RandomSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/RandomSubset.java
+END
+AddExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/AddExpression.java
+END
+MergeTwoValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/MergeTwoValues.java
+END
+MathExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/MathExpression.java
+END
+MakeIndicator.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/MakeIndicator.java
+END
+Copy.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Copy.java
+END
+PotentialClassIgnorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/PotentialClassIgnorer.java
+END
+Obfuscate.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Obfuscate.java
+END
+NumericToNominal.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/NumericToNominal.java
+END
+FirstOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/FirstOrder.java
+END
+TimeSeriesDelta.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/TimeSeriesDelta.java
+END
+ReplaceMissingValues.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/ReplaceMissingValues.java
+END
+Add.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/Add.java
+END
+StringToWordVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/StringToWordVector.java
+END
+AddCluster.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/AddCluster.java
+END
+NumericCleaner.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/NumericCleaner.java
+END
+AbstractTimeSeries.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/AbstractTimeSeries.java
+END
+NumericTransform.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/attribute/NumericTransform.java
+END

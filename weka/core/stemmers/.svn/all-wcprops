@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers
+END
+Stemming.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers/Stemming.java
+END
+LovinsStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers/LovinsStemmer.java
+END
+NullStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers/NullStemmer.java
+END
+IteratedLovinsStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers/IteratedLovinsStemmer.java
+END
+Stemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers/Stemmer.java
+END
+SnowballStemmer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/stemmers/SnowballStemmer.java
+END

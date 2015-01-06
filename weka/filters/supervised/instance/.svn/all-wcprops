@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/supervised/instance
+END
+StratifiedRemoveFolds.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/supervised/instance/StratifiedRemoveFolds.java
+END
+Resample.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/supervised/instance/Resample.java
+END
+SpreadSubsample.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/supervised/instance/SpreadSubsample.java
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi
+END
+MIEMDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MIEMDD.java
+END
+SimpleMI.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/SimpleMI.java
+END
+CitationKNN.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/CitationKNN.java
+END
+MILR.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MILR.java
+END
+TLD.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/TLD.java
+END
+MDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MDD.java
+END
+MISMO.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MISMO.java
+END
+MINND.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MINND.java
+END
+MIOptimalBall.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MIOptimalBall.java
+END
+MIWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MIWrapper.java
+END
+MISVM.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MISVM.java
+END
+MIBoost.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MIBoost.java
+END
+MIDD.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/MIDD.java
+END
+TLDSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/mi/TLDSimple.java
+END

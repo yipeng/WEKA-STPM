@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize
+END
+PrintablePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PrintablePanel.java
+END
+VisualizePanelListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/VisualizePanelListener.java
+END
+PrintableComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PrintableComponent.java
+END
+Plot2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/Plot2D.java
+END
+PostscriptWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PostscriptWriter.java
+END
+Plot2DCompanion.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/Plot2DCompanion.java
+END
+ThresholdVisualizePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/ThresholdVisualizePanel.java
+END
+JComponentWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/JComponentWriter.java
+END
+BMPWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/BMPWriter.java
+END
+LegendPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/LegendPanel.java
+END
+PrintableHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PrintableHandler.java
+END
+PNGWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PNGWriter.java
+END
+JPEGWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/JPEGWriter.java
+END
+AttributePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/AttributePanel.java
+END
+MatrixPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/MatrixPanel.java
+END
+ClassPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/ClassPanel.java
+END
+AttributePanelEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/AttributePanelEvent.java
+END
+AttributePanelListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/AttributePanelListener.java
+END
+PostscriptGraphics.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PostscriptGraphics.java
+END
+VisualizePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/VisualizePanel.java
+END
+VisualizeUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/VisualizeUtils.java
+END
+Visualize.props
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/Visualize.props
+END
+VisualizePanelEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/VisualizePanelEvent.java
+END
+PlotData2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/visualize/PlotData2D.java
+END

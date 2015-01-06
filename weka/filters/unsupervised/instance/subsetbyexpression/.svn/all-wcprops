@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/subsetbyexpression
+END
+Scanner.jflex
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/subsetbyexpression/Scanner.jflex
+END
+Parser.cup
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/subsetbyexpression/Parser.cup
+END
+sym.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/subsetbyexpression/sym.java
+END
+Scanner.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/subsetbyexpression/Scanner.java
+END
+Parser.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/filters/unsupervised/instance/subsetbyexpression/Parser.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees
+END
+BottomUpConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/BottomUpConstructor.java
+END
+BallNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/BallNode.java
+END
+BallTreeConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/BallTreeConstructor.java
+END
+TopDownConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/TopDownConstructor.java
+END
+BallSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/BallSplitter.java
+END
+MedianDistanceFromArbitraryPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/MedianDistanceFromArbitraryPoint.java
+END
+MedianOfWidestDimension.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/MedianOfWidestDimension.java
+END
+PointsClosestToFurthestChildren.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/PointsClosestToFurthestChildren.java
+END
+MiddleOutConstructor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/balltrees/MiddleOutConstructor.java
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes
+END
+WAODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/WAODE.java
+END
+NaiveBayesSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/NaiveBayesSimple.java
+END
+NaiveBayesMultinomial.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/NaiveBayesMultinomial.java
+END
+DMNBtext.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/DMNBtext.java
+END
+NaiveBayes.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/NaiveBayes.java
+END
+HNB.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/HNB.java
+END
+AODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/AODE.java
+END
+NaiveBayesMultinomialUpdateable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/NaiveBayesMultinomialUpdateable.java
+END
+BayesNet.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/BayesNet.java
+END
+BayesianLogisticRegression.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/BayesianLogisticRegression.java
+END
+ComplementNaiveBayes.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/ComplementNaiveBayes.java
+END
+AODEsr.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/AODEsr.java
+END
+NaiveBayesUpdateable.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/bayes/NaiveBayesUpdateable.java
+END

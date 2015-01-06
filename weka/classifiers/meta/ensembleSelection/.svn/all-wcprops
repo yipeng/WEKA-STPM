@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection
+END
+EnsembleModelMismatchException.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/EnsembleModelMismatchException.java
+END
+large_binary_class.model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/large_binary_class.model.xml
+END
+EnsembleSelectionLibrary.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/EnsembleSelectionLibrary.java
+END
+toylist.model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/toylist.model.xml
+END
+EnsembleSelectionLibraryModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/EnsembleSelectionLibraryModel.java
+END
+large_multi_class.model.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/large_multi_class.model.xml
+END
+DefaultModels.props
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/DefaultModels.props
+END
+ModelBag.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/ModelBag.java
+END
+EnsembleMetricHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/meta/ensembleSelection/EnsembleMetricHelper.java
+END

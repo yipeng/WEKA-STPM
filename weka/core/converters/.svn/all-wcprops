@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters
+END
+TextDirectoryLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/TextDirectoryLoader.java
+END
+AbstractSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/AbstractSaver.java
+END
+AbstractFileSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/AbstractFileSaver.java
+END
+SerializedInstancesSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/SerializedInstancesSaver.java
+END
+ArffLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/ArffLoader.java
+END
+DatabaseSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/DatabaseSaver.java
+END
+Loader.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/Loader.java
+END
+XRFFSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/XRFFSaver.java
+END
+BatchConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/BatchConverter.java
+END
+URLSourcedLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/URLSourcedLoader.java
+END
+ArffSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/ArffSaver.java
+END
+Saver.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/Saver.java
+END
+CSVLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/CSVLoader.java
+END
+C45Loader.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/C45Loader.java
+END
+LibSVMLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/LibSVMLoader.java
+END
+DatabaseConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/DatabaseConnection.java
+END
+ConverterUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/ConverterUtils.java
+END
+IncrementalConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/IncrementalConverter.java
+END
+AbstractLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/AbstractLoader.java
+END
+AbstractFileLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/AbstractFileLoader.java
+END
+SerializedInstancesLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/SerializedInstancesLoader.java
+END
+DatabaseLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/DatabaseLoader.java
+END
+DatabaseConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/DatabaseConverter.java
+END
+CSVSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/CSVSaver.java
+END
+C45Saver.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/C45Saver.java
+END
+FileSourcedConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/FileSourcedConverter.java
+END
+XRFFLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/XRFFLoader.java
+END
+LibSVMSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/converters/LibSVMSaver.java
+END

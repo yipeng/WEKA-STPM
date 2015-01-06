@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/adtree
+END
+TwoWayNominalSplit.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/adtree/TwoWayNominalSplit.java
+END
+PredictionNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/adtree/PredictionNode.java
+END
+ReferenceInstances.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/adtree/ReferenceInstances.java
+END
+Splitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/adtree/Splitter.java
+END
+TwoWayNumericSplit.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/classifiers/trees/adtree/TwoWayNumericSplit.java
+END

@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators
+END
+DDConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/DDConditionalEstimator.java
+END
+CheckEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/CheckEstimator.java
+END
+MahalanobisEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/MahalanobisEstimator.java
+END
+Estimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/Estimator.java
+END
+KernelEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/KernelEstimator.java
+END
+KDConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/KDConditionalEstimator.java
+END
+DKConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/DKConditionalEstimator.java
+END
+NDConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/NDConditionalEstimator.java
+END
+DNConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/DNConditionalEstimator.java
+END
+NormalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/NormalEstimator.java
+END
+KKConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/KKConditionalEstimator.java
+END
+PoissonEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/PoissonEstimator.java
+END
+NNConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/NNConditionalEstimator.java
+END
+EstimatorUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/EstimatorUtils.java
+END
+IncrementalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/IncrementalEstimator.java
+END
+DiscreteEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/DiscreteEstimator.java
+END
+ConditionalEstimator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/estimators/ConditionalEstimator.java
+END

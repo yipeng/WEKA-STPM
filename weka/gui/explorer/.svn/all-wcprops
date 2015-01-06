@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer
+END
+AssociationsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/AssociationsPanel.java
+END
+DataGeneratorPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/DataGeneratorPanel.java
+END
+Explorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/Explorer.java
+END
+Explorer.props
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/Explorer.props
+END
+ClassifierPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/ClassifierPanel.java
+END
+PreprocessPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/PreprocessPanel.java
+END
+ClustererPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/ClustererPanel.java
+END
+ExplorerDefaults.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/ExplorerDefaults.java
+END
+AttributeSelectionPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/AttributeSelectionPanel.java
+END
+VisualizePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/gui/explorer/VisualizePanel.java
+END

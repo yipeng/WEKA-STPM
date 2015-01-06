@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch
+END
+PerformanceStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/PerformanceStats.java
+END
+TreePerformanceStats.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/TreePerformanceStats.java
+END
+BallTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/BallTree.java
+END
+NearestNeighbourSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/NearestNeighbourSearch.java
+END
+LinearNNSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/LinearNNSearch.java
+END
+CoverTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/CoverTree.java
+END
+KDTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/Room232/Main/src/weka/core/neighboursearch/KDTree.java
+END
