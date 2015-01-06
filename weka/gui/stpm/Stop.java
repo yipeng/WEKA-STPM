@@ -55,14 +55,14 @@ public class Stop {
     	// respecting the minimum of 4 poins
         if (pts.size() < 2) return "null";
         
-        String ret = "LineFromText('LINESTRING(";
+        String ret = "ST_LineFromText('LINESTRING(";
         for (int i=0;i<pts.size();i++) {
             ret += pts.elementAt(i).point.getX() + " " + pts.elementAt(i).point.getY() + ",";
         }
         ret = ret.substring(0,ret.length()-2) + ")',"+SRID+")";
         
         if(this.isbuffer){
-        	ret = "Buffer("+ret+","+buffer+")";
+        	ret = "ST_Buffer("+ret+","+buffer+")";
         }
         return ret;
     }

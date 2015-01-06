@@ -204,14 +204,14 @@ public class GenArffFile extends JDialog {
                 Statement s2 = conn.createStatement();
                 String geom = rs.getObject("the_geom") != null ? ("'" + rs.getString("the_geom") + "'") : "null";
                 sql = "SELECT count(*) as qtd "+
-                             "FROM "+TrajectoryFrame.getCurrentNameTableStop()+" WHERE the_geom && "+geom+" AND unknown IS NOT null AND Intersects(the_geom,"+geom+")";
+                             "FROM "+TrajectoryFrame.getCurrentNameTableStop()+" WHERE unknown IS NOT null AND ST_Intersects(the_geom,"+geom+")";
                 
                 //System.out.println(sql);
                 ResultSet rs2 = s2.executeQuery(sql);
                 rs2.next();
                 if (rs2.getInt("qtd") > 0) {
                     sql = "SELECT unknown FROM "+TrajectoryFrame.getCurrentNameTableStop()+" " +
-                          "WHERE the_geom && "+geom+" AND unknown IS NOT null AND Intersects(the_geom,"+geom+") ORDER BY unknown LIMIT 1";
+                          "WHERE unknown IS NOT null AND ST_Intersects(the_geom,"+geom+") ORDER BY unknown LIMIT 1";
                     System.out.println(sql);
                     Statement s3 = conn.createStatement();
                     ResultSet rs3 = s3.executeQuery(sql);

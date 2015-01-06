@@ -66,14 +66,14 @@ public class Unknown {
     	// respecting the minimum of 4 poins
         if (pontos.size() < 4) return "null";
         
-        String ret = "LineFromText('LINESTRING(";
+        String ret = "ST_LineFromText('LINESTRING(";
         for (int i=0;i<pontos.size();i++) {
             ret += pontos.elementAt(i).point.getX() + " " + pontos.elementAt(i).point.getY() + ",";
         }
         ret = ret.substring(0,ret.length()-2) + ")',"+SRID+")";
         
         if(this.isbuffer){
-        	ret = "Buffer("+ret+","+buffer+")";
+        	ret = "ST_Buffer("+ret+","+buffer+")";
         }
         
         return ret;

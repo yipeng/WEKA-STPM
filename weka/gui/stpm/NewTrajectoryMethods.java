@@ -63,7 +63,7 @@ public class NewTrajectoryMethods extends TrajectoryMethods {
 			s = config.conn.createStatement();
 		    for(ClusterPoints c:clusters){
 		    	String sql= "insert into clusters (tid,cluster_id,the_geom) values" +
-		    			"("+tid+","+c.clusterId+",Buffer(LineFromText('LINESTRING(";
+		    			"("+tid+","+c.clusterId+",ST_Buffer(ST_LineFromText('LINESTRING(";
 		    	for(int i=0;i<c.points.size();i++){
 		    		org.postgis.Point p = c.points.elementAt(i).point;
 		    		sql+= p.getX() + " " + p.getY() + ",";

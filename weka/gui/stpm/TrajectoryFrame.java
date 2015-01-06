@@ -310,7 +310,7 @@ public class TrajectoryFrame extends JDialog{
                		method.run(trajectory,i,tableTraj,streets);
                	}
                	else{
-               		System.out.println("Trajetory "+trajectory.tid+" has less than 5 points. It will be desconsidered.");
+               		System.out.println("Trajectory "+trajectory.tid+" has less than 5 points. It will be disconsidered.");
                	}                
             }
             //just runs the method chosen, aplyed to one trajectory
@@ -517,7 +517,7 @@ private InterceptsG createIntercepts() throws SQLException{
                 } catch (SQLException ex) {
                 	// do nothing
                 } finally {
-                	s.execute("create table "+a.name+"_buf as select gid, buffer(the_geom,"+buffer+") as the_geom from "+a.name+";");
+                	s.execute("create table "+a.name+"_buf as select gid, ST_Buffer(the_geom,"+buffer+") as the_geom from "+a.name+";");
                 	s.execute("alter table "+a.name+"_buf add constraint "+a.name+"_buf_pk primary key (gid);");
                 }
         		sql=("select A.gid as pt, B.gid as gid, '"+a.name+"' as rf "+
@@ -534,7 +534,7 @@ private InterceptsG createIntercepts() throws SQLException{
             		} catch (SQLException ex) {
             			// do nothing
             		} finally {
-            			s.execute("CREATE TABLE "+a.name+"_buf AS SELECT gid, buffer(the_geom, "+buffer+") AS the_geom FROM "+a.name+";");
+            			s.execute("CREATE TABLE "+a.name+"_buf AS SELECT gid, ST_Buffer(the_geom, "+buffer+") AS the_geom FROM "+a.name+";");
             			s.execute("ALTER TABLE "+a.name+"_buf ADD CONSTRAINT "+a.name+"_buf_pk PRIMARY KEY (gid);");
             		}
             		sql = "select A.gid as pt, B.gid as gid, '"+a.name+"' as rf "+
