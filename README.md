@@ -3,9 +3,9 @@ WEKA-SPTM
 
 WEKA for Moving Object Data Analysis and Mining (Weka-STPM)
 
-Weka-STPM extends "Weka to support automatic trajectory data preprocessing to add semantic information to raw trajectory data for analysis and mining." In short, it supports the Stop and Move of Trajectories (SMOT) algorithms, IB-SMOT (ACMGIS 2007) and CB-SMOT (ACMSAC 2008). SMOT algorithms are pretty neat because they actually work :)
+This github project is a port of the original Weka-STPM that takes care of some bugbears in the codebase and provides compatibility with PostGIS 2.X. Weka-STPM extends "Weka to support automatic trajectory data preprocessing to add semantic information to raw trajectory data for analysis and mining." In short, it supports the Stop and Move of Trajectories (SMOT) algorithms, IB-SMOT (ACMGIS 2007) and CB-SMOT (ACMSAC 2008). 
 
-This github project is a port of the original Weka-STPM that takes care of some bugbears in the codebase. It is intended to provide compatibility with Postgis 2.X but I think my changes fix compatibility with >1.3. 
+SMOT algorithms are pretty neat because they actually work :)
 
 There are two copies of Wekas-STPM provided by the authors:
 * http://www.inf.ufsc.br/~vania/software.html
