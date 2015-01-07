@@ -196,7 +196,7 @@ public class TrajectoryFrame extends JDialog{
                 
                 System.out.println("\t\tStarting Trajectory "+t.tid+"\n\t\tavg= "+((Double) avg.value).doubleValue()+" ;\n\t\tminTime= "+minTimeMili+" ;\n\t\tSL= "+SL+" ; ");
 
-                // the clustering method, wich will use the points in 't'	
+                // the clustering method, which will use the points in 't'	
                 Vector<ClusterPoints> clusters = TrajectoryMethods.speedClustering(t,
                         ((Double) avg.value).doubleValue(),
                         minTimeMili,
@@ -206,7 +206,7 @@ public class TrajectoryFrame extends JDialog{
                 java.util.Date tempo = new java.util.Date(fim.getTime()-ini.getTime());
                 System.out.println("Clusterization: " +tempo.getTime()+" ms");
                 
-                //starts to aply semantics...
+                //starts to apply semantics...
                 ini = new java.util.Date();
                 if(jListRF.getMaxSelectionIndex()==-1){//not RF selected
                 	// save in the stops-table the clusters founded (as unknowns);
@@ -222,7 +222,7 @@ public class TrajectoryFrame extends JDialog{
                 }
                 fim = new java.util.Date();
                 tempo = new java.util.Date(fim.getTime()-ini.getTime());
-                System.out.println("Semantics Aplication: " +tempo.getTime()+" ms");
+                System.out.println("Semantics Application: " +tempo.getTime()+" ms");
             }
             public String toString() {
                 return "CB-SMoT";
@@ -1073,14 +1073,14 @@ panelSchema.add(filter);
             java.util.Date tempo,fim,ini = new java.util.Date();
             config.table = str[count];
             try {
-                //trajectory srid checking, has to be the same of all the other trajectory-talbes and RFs
+                //trajectory srid checking, has to be the same of all the other trajectory-tables and RFs
                 Statement sn = conn.createStatement();
                 ResultSet rsn = sn.executeQuery("select srid from geometry_columns where f_table_name='"+config.table+"'");
                 rsn.next();
                 if(table_srid!=rsn.getInt("srid")){
-                        throw new Exception("SRID imcompatibles. Trajectory table "+config.table+" should be changed.");
+                        throw new Exception("SRID incompatiblities. Trajectory table "+config.table+" should be changed.");
                 }
-                //enf of srid checking
+                //end of srid checking
                 System.out.println("Creating tables...");
                 createTables();
                 System.out.println("Processing the trajectories...");

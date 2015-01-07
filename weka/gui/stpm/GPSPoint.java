@@ -20,7 +20,7 @@ public class GPSPoint implements Comparable<GPSPoint> {
 	public static final int NULL_CLUSTER_ID = -1;
 	
     public int tid;
-    public int gid; //ATENTION it is not the gid attribute of the point!! Stores the gid of the rf that intercepts the point
+    public int gid; //ATTENTION it is not the gid attribute of the point!! Stores the gid of the rf that intercepts the point
     public Timestamp time;
     public Point point;
     public Cluster cluster;

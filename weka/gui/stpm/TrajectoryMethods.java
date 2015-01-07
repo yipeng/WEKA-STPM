@@ -101,7 +101,7 @@ public class TrajectoryMethods {
             }
             return leftPoint;
         }
-        if ((leftPoint != null) && (leftPoint.speed <= rightPoint.speed)) {
+        if ((leftPoint != null) && (leftPoint.speed <= rightPoint.speed)) {     // always add the slower neighbour
             seeds.addToBegin(leftPoint);
             return leftPoint;
         } else {
@@ -119,7 +119,7 @@ public class TrajectoryMethods {
         seeds.addToEnd(point);
         slowestNeighborhood(points, seeds, speedLimit, minTimeMilliseconds);
         double meanSpeed = seeds.meanSpeed();
-        if (meanSpeed > avgSpeed || seeds.duration() < minTimeMilliseconds) {
+        if (meanSpeed > avgSpeed || seeds.duration() < minTimeMilliseconds) { // cont if mean speed in slowest neighborhood is smaller than global mean speed
             return false;
         } else {
             seeds.setClusterId(clusterId);
@@ -127,7 +127,7 @@ public class TrajectoryMethods {
                 GPSPoint addedPoint = addSlowerNeighborToSeeds(points, seeds);
                 if (addedPoint != null) {
                     double newMeanSpeed = seeds.meanSpeed();
-                    if (newMeanSpeed <= avgSpeed && addedPoint.speed <= speedLimit) {
+                    if (newMeanSpeed <= avgSpeed && addedPoint.speed <= speedLimit) { // neighborhood speed <= 0.9*global mean, point speed <= 1.1*global mean
                         if (addedPoint.clusterId == GPSPoint.NULL_CLUSTER_ID) {
                             addedPoint.clusterId = clusterId;
                         } else {
@@ -202,12 +202,12 @@ public class TrajectoryMethods {
     		double avgFactor, long minTimeMilli, double speedLimitFactor) {
     	Vector<GPSPoint> points = t.points;
     	double avgSpeedOfTrajectory = t.meanSpeed();
-    	double avgSpeed = avgSpeedOfTrajectory * avgFactor;
+    	double avgSpeed = avgSpeedOfTrajectory * avgFactor; //0.9 and 1.1 are pretty generic
     	double speedLimit = avgSpeedOfTrajectory * speedLimitFactor;
     	
     	int clusterId = 1;
         Vector<GPSPoint> pointsSorted = getPointsSortedBySpeed(points);
-        for (GPSPoint point: pointsSorted) {
+        for (GPSPoint point: pointsSorted) { // for each point, consider a limited neighborhood of points
             if (point.clusterId == GPSPoint.NULL_CLUSTER_ID) { // point is unprocessed
                 if (limitedNeighborhood(points, point, clusterId, avgSpeed,
                 		minTimeMilli, speedLimit)) {
