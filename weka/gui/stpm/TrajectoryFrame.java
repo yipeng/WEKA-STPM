@@ -259,7 +259,27 @@ public class TrajectoryFrame extends JDialog{
         if(TrajectoryClean.isPrintSpeedToFileXls()){
             speedFile = Util.getFileSpeed(TrajectoryFrame.getCurrentNameTableStop());
         }
-
+        
+        // Add hash index on time if it doesn't exists to boost perf
+        Statement s0a = conn.createStatement(); 
+        String sql0a = "with x as (select oid from pg_class where relname = '"+config.table+"') " +
+        		"select 1 from (select attnum from pg_attribute where attrelid IN (select * from x) and attname = '"+config.tid+"') a" +
+        		"inner join (select indkey from pg_index where indrelid IN (select * from x)) b on attnum = ALL(indkey);";
+        ResultSet rs0 = s0a.executeQuery(sql0a);
+        boolean indexTimeExists = false;
+        indexTimeExists = rs0.next();
+        s0a.close();
+        //System.out.println(sql0a);
+        if (!indexTimeExists){
+        	System.out.println("Creating Index on " + config.tid );
+        	Statement s0b = conn.createStatement(); 
+        	String sql0b = "CREATE INDEX ON "+config.table+" USING hash ("+config.tid+") WITH (FILLFACTOR=100);";
+        	s0b.execute(sql0b);
+        	s0b.close();
+        } else {
+        	System.out.println("Tid index on " + config.table + " exists. Performance will be good." );
+        }
+        
     	//for each trajectory...        
         while (rs.next()) {
         	Trajectory trajectory = new Trajectory(table_srid);
@@ -1398,9 +1418,9 @@ public String formatNameParameter(String nm){
 
 public static void main(String args[]) {
     String url = "jdbc:postgresql://localhost:5432/";
-    String db = "wekadb";
-    String user = "postgres";
-    String pass = "ytrewq789";
+    String db = "";
+    String user = "";
+    String pass = "";
     new TrajectoryFrame(user, pass, url + db);
 }
 
