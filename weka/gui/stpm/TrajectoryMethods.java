@@ -1040,6 +1040,10 @@ public class TrajectoryMethods {
 	 * @param traj 		trajectory to be saved.
 	 * @param config	User configurations.
 	 * @throws SQLException		If any table didn't exist in the BD, or a field.
+	 * 
+	 * TODO Buffers here should probably be fixed to buffer meters rather than SRS
+	 * But I'm not entirely sure of the author's intention and the code isn't called anyway. 
+	 * 
 	 */
 	public static void saveClusters(Trajectory traj, Config config, long minTimeMilis) throws SQLException {	
 		Statement s = config.conn.createStatement();

@@ -56,6 +56,9 @@ public class NewTrajectoryMethods extends TrajectoryMethods {
 	 * @param clusters 	Clusters to be saved.
 	 * @param config	User configurations.
 	 * @param tid		Trajectory tid to be saved.	
+	 * 
+	 * TODO Buffers here should probably be fixed to buffer meters rather than SRS
+	 * But I'm not entirely sure of the author's intention and the code isn't called anyway. 
 	 */
 	public static void saveClusters(Vector<ClusterPoints> clusters, Config config, int tid){
 		Statement s;
