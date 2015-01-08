@@ -13,7 +13,9 @@ import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.event.*;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -23,6 +25,7 @@ import java.sql.Statement;
 import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Properties;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -106,34 +109,70 @@ public class TrajectoryFrame extends JDialog{
     /**Buffer variable*/
     private Double buffer=50.0;	// variable buffer, initialized
     
-    public TrajectoryFrame(){    	
+    /*    public TrajectoryFrame(){    	
     	this.setTitle("Trajectory");    	
         init();
     	initComponents();    	
-    }    
+    }    */
     
     public TrajectoryFrame(String user, String pass, String url) {        
     	this.setTitle("Trajectory");    	
     	init();
         initComponents();
     	try {
-            if (user == "")
-                conn = DriverManager.getConnection(url);
-            else
-                conn = DriverManager.getConnection(url,user,pass);
             
-            ((org.postgresql.PGConnection) conn).addDataType("geometry",org.postgis.PGgeometry.class);
-            
+    		loadPropertiesFromFile(user, pass, url);
             loadSchemas();
             jComboBoxMethodItemStateChanged(null);
-            config.conn = conn;
+            /*            config.conn = conn;
             config.tid = "tid";
-            config.time = "time";            
+            config.time = "time";  */          
     	}catch(Exception e) {
     		System.out.println(e.toString());
             JOptionPane.showMessageDialog(this,"Error in conection with DB.");	    	
             dispose();
         }	
+    }
+    
+    private void loadPropertiesFromFile(String userFromInput, String passFromInput, String urlFromInput) throws SQLException {
+    	Properties prop = new Properties();
+    	InputStream input = null;
+
+    	try {
+
+    		input = new FileInputStream("config.properties");
+
+    		// load a properties file
+    		prop.load(input);
+
+    		String user = (userFromInput!=null) ? userFromInput : prop.getProperty("dbUser"); 
+    		String pass = (userFromInput!=null) ? passFromInput : prop.getProperty("dbPass");
+    		String url = (userFromInput!=null) ? urlFromInput : prop.getProperty("dbURL") + prop.getProperty("dbName");
+
+    		if (user == "")
+    			conn = DriverManager.getConnection(url);
+    		else
+    			conn = DriverManager.getConnection(url,user,pass);
+
+    		((org.postgresql.PGConnection) conn).addDataType("geometry",org.postgis.PGgeometry.class);
+
+    		config.conn = conn;
+    		config.table = prop.getProperty("trajectoryTable");
+    		config.tid = prop.getProperty("trajectoryId");
+    		config.time = prop.getProperty("detectionTime"); 
+
+    	} catch (IOException ex) {
+    		ex.printStackTrace();
+    	} finally {
+    		if (input != null) {
+    			try {
+    				input.close();
+    			} catch (IOException e) {
+    				e.printStackTrace();
+    			}
+    		}
+    	}
+
     }
     
     /**Load the tables in the DB with geometry columns
@@ -260,7 +299,7 @@ public class TrajectoryFrame extends JDialog{
             speedFile = Util.getFileSpeed(TrajectoryFrame.getCurrentNameTableStop());
         }
         
-        // Add hash index on time if it doesn't exists to boost perf
+        // Add hash index on tid if it doesn't exists to boost perf
         Statement s0a = conn.createStatement(); 
         String sql0a = "with x as (select oid from pg_class where relname = '"+config.table+"') " +
         		"select 1 from (select attnum from pg_attribute where attrelid IN (select * from x) and attname = '"+config.tid+"') a" +
@@ -1417,11 +1456,7 @@ public String formatNameParameter(String nm){
     }
 
 public static void main(String args[]) {
-    String url = "jdbc:postgresql://localhost:5432/";
-    String db = "";
-    String user = "";
-    String pass = "";
-    new TrajectoryFrame(user, pass, url + db);
+    new TrajectoryFrame(null, null, null);
 }
 
 
