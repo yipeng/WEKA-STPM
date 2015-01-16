@@ -248,6 +248,13 @@ public class Trajectory {
     		double distance = lastPoint.distance(currentPoint);
     		long time = currentPoint.time.getTime() - lastPoint.time.getTime();
     		points.elementAt(i).speed = distance / (time/1000.0);
+    		/**
+    		 * technically speed is inf when dist !=0 and time=0 
+    		 * but for now we'll handle all NaNs silently.
+    		 */
+    		if (Double.isNaN(points.elementAt(i).speed)){ 
+    			points.elementAt(i).speed = 0;
+    		}
     		i++;
     	}
     }

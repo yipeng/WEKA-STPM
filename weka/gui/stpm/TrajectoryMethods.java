@@ -1004,6 +1004,7 @@ public class TrajectoryMethods {
 		        }else if (obj.getClass() == Unknown.class) {
 		            Unknown unk = (Unknown) obj;
 		            int tid = unk.pontos.firstElement().tid;
+		            if(unk.pontos.size()>=4){//to prevent the_geom null, nb: added by yipeng 080115
 		            	String query = "select stop_name from "+TrajectoryFrame.getCurrentNameTableStop()+" where rf='unknown' AND ST_Intersects(the_geom,"+unk.toSQL(buffer)+");";
 		            	ResultSet rs = s1.executeQuery(query);
 		            	if(rs.next()){
@@ -1018,6 +1019,7 @@ public class TrajectoryMethods {
 		            	}
 		            	stopId++;
 		            	flag=false;//poe pra executar a query...
+		            }
 		            //else flag=true;//ou NAO executa...
 		        }
 		        
